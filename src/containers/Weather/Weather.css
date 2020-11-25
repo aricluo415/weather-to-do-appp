@@ -1,0 +1,21 @@
+.night.col-sm-6 {
+    padding: 0;
+    height: 100%;
+    border-top-left-radius: 5px;
+    background: rgb(146, 11, 255);
+    background: linear-gradient(0deg, rgba(146, 11, 255, 1) 0%, rgba(26, 0, 97, 1) 55%);
+    color: white;
+}
+
+.day.col-sm-6 {
+    background: rgb(214, 126, 0);
+    background: linear-gradient(0deg, rgba(214, 126, 0, 1) 0%, rgba(255, 223, 74, 1) 42%, rgba(255, 250, 145, 1) 80%);
+    padding: 0;
+    height: 100%;
+    color: black;
+}
+
+.weather {
+    height: 40%;
+    padding: 0;
+}

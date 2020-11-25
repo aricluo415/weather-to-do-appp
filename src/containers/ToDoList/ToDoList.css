@@ -1,0 +1,19 @@
+.toDoList.row.day {
+    background: rgb(144, 63, 255);
+    background: linear-gradient(0deg, rgba(144, 63, 255, 1) 0%, rgba(255, 107, 212, 1) 16%, rgba(255, 117, 119, 1) 51%, rgba(255, 144, 47, 1) 80%);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 60%;
+}
+
+.toDoList.row {
+    background: rgb(255, 198, 63);
+    background: linear-gradient(0deg, rgba(255, 198, 63, 1) 0%, rgba(255, 164, 107, 1) 21%, rgba(147, 117, 255, 1) 69%, rgba(110, 32, 255, 1) 100%);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 60%;
+}
+
+.toDos.list-group {
+    margin: auto;
+}

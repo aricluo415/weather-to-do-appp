@@ -1,0 +1,48 @@
+.ToDo.card {
+    background: rgb(47, 47, 47);
+    background: linear-gradient(90deg, rgba(47, 47, 47, 1) 0%, rgba(139, 139, 140, 1) 50%, rgba(226, 226, 226, 1) 100%);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%
+}
+
+.row.ToDo {
+    margin: 0;
+}
+
+.description {
+    float: left;
+    padding: 10px;
+    margin: 2px;
+    background-color: transparent;
+}
+
+div.col-sm-10 {
+    padding: 0;
+    margin: auto;
+}
+
+.remove.btn.btn-primary {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+button.remove.btn.btn-secondary {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+div.col-sm-2 {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+div.list-group-item {
+    background: rgb(167, 104, 255);
+    background: linear-gradient(90deg, rgba(167, 104, 255, 1) 0%, rgba(207, 207, 207, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    border: 1px solid black;
+}

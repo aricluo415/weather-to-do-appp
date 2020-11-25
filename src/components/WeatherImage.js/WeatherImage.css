@@ -1,0 +1,213 @@
+@keyframes shine {
+    10% {
+        opacity: 1;
+        top: -30%;
+        left: -30%;
+        transition-property: left, top, opacity;
+        transition-duration: 0.7s, 0.7s, 0.15s;
+        transition-timing-function: ease;
+    }
+    100% {
+        opacity: 0;
+        top: -30%;
+        left: -30%;
+        transition-property: left, top, opacity;
+    }
+}
+
+@keyframes moonstretch {
+    0% {
+        top: 0vh;
+        transform: scale(0.9);
+        opacity: 0.6;
+        border-radius: 100%;
+        border-color: rgb(0, 0, 0);
+    }
+    50% {
+        top: 1vh;
+        opacity: 0.78;
+    }
+    100% {
+        border-color: rgb(255, 255, 255);
+        border-radius: 100%;
+        top: 2vh;
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes moonballsslow {
+    0% {
+        top: 0vh;
+        transform: scale(0.9);
+        opacity: 0.8;
+        border-radius: 100%;
+        stroke: purple;
+        stroke-width: 1px;
+    }
+    50% {
+        top: 1vh;
+        opacity: 0.9;
+    }
+    100% {
+        top: 2vh;
+        border-radius: 100%;
+        opacity: 1;
+        transform: scale(1);
+        stroke: rgb(0, 0, 0);
+        stroke-width: 10px;
+        ;
+    }
+}
+
+@keyframes stretch {
+    0% {
+        top: 0vh;
+        transform: scale(0.7);
+        opacity: 0.3;
+        border-radius: 100%;
+    }
+    50% {
+        top: 1vh;
+        opacity: 0.55;
+    }
+    100% {
+        top: 2vh;
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes stretch1 {
+    0% {
+        top: 2vh;
+        transform: scale(0.7);
+        opacity: 0.3;
+        border-radius: 100%;
+    }
+    50% {
+        top: 1vh;
+        opacity: 0.55;
+    }
+    100% {
+        top: 0vh;
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.moonContainer .img4.img-fluid {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    padding-top: 2vh;
+    right: 4vw;
+    animation-name: moonstretch;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.moonContainer .img5.img-fluid {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    padding-bottom: 5vh;
+    right: 1vw;
+    animation-name: stretch;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.moonContainer .img6.img-fluid {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    padding-top: 6vh;
+    right: 2vw;
+    animation-name: stretch1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.moonContainer .img1.img-fluid {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    padding-top: 4vh;
+    right: 0vw;
+    animation-name: stretch1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.moonContainer .img2.img-fluid {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    padding-bottom: 10vh;
+    right: 4vw;
+    animation-name: moonballsslow;
+    animation-duration: 1.3s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.moonContainer .img3.img-fluid {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    padding-bottom: 4vh;
+    right: 0vw;
+    animation-name: stretch1;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.moonContainer .img0.img-fluid {
+    height: 100%;
+    max-width: 60%;
+    border: 6px dotted black;
+    animation-name: moonstretch;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+div.moonContainer {
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
